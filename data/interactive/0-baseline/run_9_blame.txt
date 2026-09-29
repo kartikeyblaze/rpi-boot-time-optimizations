@@ -1,0 +1,75 @@
+5.991s NetworkManager-wait-online.service
+5.990s NetworkManager.service
+1.934s cloud-init-main.service
+1.107s e2scrub_reap.service
+1.095s dev-mmcblk0p2.device
+1.070s tailscaled.service
+ 992ms rpi-eeprom-update.service
+ 919ms accounts-daemon.service
+ 869ms udisks2.service
+ 604ms systemd-fsck@dev-disk-by\x2dpartuuid-18ecc5e5\x2d01.service
+ 570ms user@1000.service
+ 402ms avahi-daemon.service
+ 397ms cloud-init-local.service
+ 396ms bluetooth.service
+ 379ms lightdm.service
+ 365ms plymouth-quit-wait.service
+ 353ms cloud-final.service
+ 343ms systemd-udev-trigger.service
+ 338ms dbus.service
+ 338ms cloud-init-network.service
+ 302ms rp1-test.service
+ 292ms wpa_supplicant.service
+ 282ms rpi-resize-swap-file.service
+ 270ms glamor-test.service
+ 261ms plymouth-start.service
+ 257ms systemd-udevd.service
+ 252ms keyboard-setup.service
+ 250ms ssh.service
+ 247ms cloud-config.service
+ 241ms packagekit.service
+ 239ms polkit.service
+ 215ms systemd-journald.service
+ 208ms systemd-fsck-root.service
+ 203ms systemd-tmpfiles-setup.service
+ 196ms systemd-binfmt.service
+ 191ms systemd-logind.service
+ 187ms rpi-setup-loop@var-swap.service
+ 176ms sshswitch.service
+ 167ms systemd-zram-setup@zram0.service
+ 147ms alsa-restore.service
+ 143ms systemd-udev-load-credentials.service
+ 143ms systemd-hostnamed.service
+ 139ms systemd-tmpfiles-setup-dev-early.service
+ 136ms rpcbind.service
+ 135ms systemd-modules-load.service
+ 132ms modprobe@drm.service
+ 131ms systemd-timesyncd.service
+ 128ms systemd-remount-fs.service
+ 117ms dev-mqueue.mount
+ 116ms run-lock.mount
+ 116ms sys-kernel-debug.mount
+ 111ms sys-kernel-tracing.mount
+ 107ms boot-firmware.mount
+ 104ms systemd-rfkill.service
+  98ms kmod-static-nodes.service
+  94ms modprobe@configfs.service
+  85ms systemd-random-seed.service
+  80ms modprobe@fuse.service
+  76ms systemd-sysctl.service
+  69ms run-rpc_pipefs.mount
+  68ms systemd-journal-flush.service
+  68ms NetworkManager-dispatcher.service
+  68ms console-setup.service
+  68ms sys-fs-fuse-connections.mount
+  67ms systemd-user-sessions.service
+  64ms proc-sys-fs-binfmt_misc.mount
+  64ms plymouth-read-write.service
+  60ms rpc-statd-notify.service
+  58ms nfs-blkmap.service
+  51ms systemd-tmpfiles-setup-dev.service
+  50ms modprobe@efi_pstore.service
+  49ms sys-kernel-config.mount
+  41ms dev-zram0.swap
+  39ms user-runtime-dir@1000.service
+  23ms tmp.mount

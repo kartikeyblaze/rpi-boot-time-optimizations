@@ -1,0 +1,16 @@
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+multi-user.target @6.991s
+└─tailscaled.service @6.097s +893ms
+  └─NetworkManager.service @4.224s +1.857s
+    └─dbus.service @3.551s +266ms
+      └─basic.target @3.536s
+        └─sockets.target @3.535s
+          └─systemd-hostnamed.socket @3.535s
+            └─sysinit.target @3.528s
+              └─systemd-binfmt.service @3.035s +162ms
+                └─proc-sys-fs-binfmt_misc.mount @3.069s +99ms
+                  └─systemd-journald.socket @1.403s
+                    └─-.mount @1.365s
+                      └─-.slice @1.365s

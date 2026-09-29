@@ -1,0 +1,18 @@
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+graphical.target @13.366s
+└─multi-user.target @13.365s
+  └─tailscaled.service @12.315s +1.048s
+    └─NetworkManager.service @6.333s +5.935s
+      └─dbus.service @5.986s +336ms
+        └─basic.target @5.932s
+          └─sockets.target @5.930s
+            └─systemd-hostnamed.socket @5.929s
+              └─sysinit.target @5.922s
+                └─cloud-init-network.service @5.582s +338ms
+                  └─cloud-init-local.service @5.189s +390ms
+                    └─cloud-init-main.service @3.321s +1.864s
+                      └─boot-firmware.mount @3.237s +72ms
+                        └─systemd-fsck@dev-disk-by\x2dpartuuid-18ecc5e5\x2d01.service @2.636s +592ms
+                          └─dev-disk-by\x2dpartuuid-18ecc5e5\x2d01.device @2.627s

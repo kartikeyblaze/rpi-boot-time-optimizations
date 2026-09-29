@@ -1,0 +1,54 @@
+983ms dev-mmcblk0p2.device
+826ms tailscaled.service
+583ms e2scrub_reap.service
+566ms systemd-fsck@dev-disk-by\x2dpartuuid-752c70b4\x2d01.service
+547ms rpi-eeprom-update.service
+376ms user@1000.service
+369ms systemd-resolved.service
+319ms ofono-fcc-unlock.service
+305ms rpi-resize-swap-file.service
+281ms systemd-udevd.service
+269ms systemd-udev-trigger.service
+249ms dundee.service
+228ms dbus.service
+218ms ofono.service
+184ms systemd-zram-setup@zram0.service
+170ms ssh.service
+169ms systemd-journald.service
+161ms wpa_supplicant.service
+154ms systemd-binfmt.service
+146ms systemd-networkd.service
+145ms systemd-timesyncd.service
+144ms sshswitch.service
+142ms dev-mqueue.mount
+141ms run-lock.mount
+139ms sys-kernel-debug.mount
+135ms kmod-static-nodes.service
+135ms systemd-logind.service
+134ms systemd-rfkill.service
+128ms modprobe@configfs.service
+124ms modprobe@drm.service
+118ms systemd-remount-fs.service
+117ms systemd-fsck-root.service
+116ms rpi-setup-loop@var-swap.service
+115ms systemd-udev-load-credentials.service
+104ms modprobe@efi_pstore.service
+102ms modprobe@fuse.service
+100ms systemd-modules-load.service
+ 99ms systemd-tmpfiles-setup-dev-early.service
+ 96ms systemd-network-generator.service
+ 88ms proc-sys-fs-binfmt_misc.mount
+ 74ms systemd-tmpfiles-setup.service
+ 73ms systemd-journal-flush.service
+ 71ms sys-fs-fuse-connections.mount
+ 70ms systemd-random-seed.service
+ 68ms sys-kernel-config.mount
+ 61ms systemd-sysctl.service
+ 61ms systemd-tmpfiles-setup-dev.service
+ 60ms systemd-networkd-persistent-storage.service
+ 48ms dev-zram0.swap
+ 46ms tmp.mount
+ 45ms systemd-user-sessions.service
+ 44ms boot-firmware.mount
+ 39ms console-setup.service
+ 34ms user-runtime-dir@1000.service

@@ -1,0 +1,5 @@
+Metric,Average_Sec,Std_Dev_Sec,Min_Sec,Max_Sec
+Kernel_Sec,0.786,0.006,0.777,0.793
+Userspace_Sec,14.024,0.711,13.693,16.043
+Total_Sec,14.81,0.714,14.486,16.836
+Target_Sec,8.363,0.045,8.285,8.46

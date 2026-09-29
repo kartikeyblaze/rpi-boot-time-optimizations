@@ -1,0 +1,11 @@
+Iteration,Kernel_Sec,Userspace_Sec,Total_Sec,Target_Name,Target_Sec
+1,0.786,5.159,5.945,multi-user.target,5.154
+2,0.785,5.254,6.039,multi-user.target,5.249
+3,0.773,5.161,5.935,multi-user.target,5.153
+4,0.786,5.281,6.068,multi-user.target,5.261
+5,0.787,5.113,5.9,multi-user.target,5.103
+6,0.786,5.247,6.033,multi-user.target,5.242
+7,0.783,5.175,5.959,multi-user.target,5.169
+8,0.795,5.226,6.021,multi-user.target,5.219
+9,0.791,5.252,6.044,multi-user.target,5.247
+10,0.788,5.211,5.999,multi-user.target,5.202

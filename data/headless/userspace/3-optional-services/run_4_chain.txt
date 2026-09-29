@@ -1,0 +1,13 @@
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+multi-user.target @4.774s
+└─tailscaled.service @3.921s +851ms
+  └─systemd-networkd.service @3.759s +141ms
+    └─systemd-udevd.service @1.862s +294ms
+      └─systemd-tmpfiles-setup-dev.service @1.799s +57ms
+        └─systemd-tmpfiles-setup-dev-early.service @1.568s +87ms
+          └─kmod-static-nodes.service @1.417s +109ms
+            └─systemd-journald.socket @1.405s
+              └─system.slice @1.353s
+                └─-.slice @1.353s
