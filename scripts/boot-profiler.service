@@ -1,0 +1,11 @@
+[Unit]
+Description=Capture systemd-analyze time logs on boot for 10 iterations
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/profile-boot.sh
+RemainAfterExit=no
+
+[Install]
+WantedBy=multi-user.target

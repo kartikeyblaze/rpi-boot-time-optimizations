@@ -1,0 +1,11 @@
+[Unit]
+Description=Capture dmesg/initcall logs on boot for N iterations
+After=multi-user.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/boot_log_capture.sh
+RemainAfterExit=no
+
+[Install]
+WantedBy=multi-user.target
